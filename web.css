@@ -1,7 +1,8 @@
+
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Schoolbook;
+	font-family: Consolas;
 	box-sizing: border-box;
 }
 h1, p{margin: 20px 0;}
@@ -57,8 +58,8 @@ header{
 	background-image: url(mypic.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin-left: 20px;
-	margin-top: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
 }
 .Andrie2{
 	padding: 15px;
@@ -68,8 +69,8 @@ header{
 	background-image: url(nice.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin-left: 20px;
-	margin-top: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
 }
 .Andrie3{
 	padding: 20px;
@@ -111,7 +112,7 @@ header{
 	grid-template-columns: auto auto;
 	grid-column-gap: 5px;
 }
-@media only screen and (max-width: 1200px){
+@media screen and (max-width: 800px){
 	.navBar{flex-flow: column; position: static;}
 	.mainpart{flex-flow: column;}
 	.img{grid-template-columns: auto;}
