@@ -2,13 +2,13 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Consolas;
+	font-family: Copperplate Gothic Bold;
 	box-sizing: border-box;
 }
-h1, p{margin: 20px 0;}
+h1, p{margin: 25px 0;}
 header{
 	padding: 100px;
-	color: #31E1F7;
+	color: #D800A6;
 	text-align: center;
 	background: url(Blue.jpg);
 	background-size: cover;
@@ -33,6 +33,13 @@ header{
 	background: #87A2FB;
 	color: #31E1F7;
 }
+body{
+	min-height: 100px;
+	width: 100vw;
+	overflow-x: Hidden;
+}
+	
+	
 .Mainpart{
 	display: flex;
 }
@@ -40,15 +47,17 @@ header{
 	flex: 25%;
 	padding: 15px;
 	background: #9C9EFE;
-    font-family: comic sans ms;
-    color: #361500;
+    font-family: Copperplate Gothic Bold;
+    color: #100F0F;
     box-sizing: border-box;
 }
 .main{
 	flex: 75%;
 	padding: 15px;
-	background: #0E3EDA;
 	font-family: Broadway;
+	padding: 100px;
+	background: url(vio.jpg);
+	background-size: cover;
 }
 .Andrie1{
 	padding: 15px;
@@ -58,8 +67,8 @@ header{
 	background-image: url(mypic.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 .Andrie2{
 	padding: 15px;
@@ -69,8 +78,8 @@ header{
 	background-image: url(nice.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 20px;
+	margin-top: 10px;
 }
 .Andrie3{
 	padding: 20px;
@@ -80,7 +89,7 @@ header{
 	background-image: url(family.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin: 25px 0;
+	margin-top: 100px;
 }
 .Andrie4{
 	padding: 15px;
@@ -112,7 +121,7 @@ header{
 	grid-template-columns: auto auto;
 	grid-column-gap: 5px;
 }
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 800px){
 	.navBar{flex-flow: column; position: static;}
 	.mainpart{flex-flow: column;}
 	.img{grid-template-columns: auto;}
